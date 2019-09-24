@@ -1,0 +1,18 @@
+.header {
+    background: blue;
+    padding: 1%;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.about-content {
+    margin-top: 4%;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
