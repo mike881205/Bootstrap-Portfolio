@@ -3,20 +3,27 @@ body{
 }
 
 .header {
-    background: blue;
-    padding: 1%;
-    color: white;
+    background: #3f51b5;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 1px 3px #999;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 18px;
+    text-align: left;
+    background: #dc3545;
+    padding: 14%;
+    margin:0%;
 }
 
 .container {
     margin-top: 4%;
     margin-bottom: 4%;
     background: white;
-    height: 450px;
+    height: 625px;
+    width: 950px;
 }
 
 h2 {
@@ -28,11 +35,12 @@ img {
     width: 150px;
     height: auto;
     float: left;
-    margin: 1%;
+    margin: 2%;
 }
 
 .footer {
-    background: black;
-    color: white;
-    padding: 1%;
+    background: #333;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
 }
