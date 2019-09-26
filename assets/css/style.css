@@ -12,7 +12,6 @@ body{
 
 h1 {
     font-size: 18px;
-    text-align: left;
     background: #dc3545;
     padding: 14%;
     margin:0%;
@@ -38,9 +37,24 @@ img {
     margin: 2%;
 }
 
+.portfolio img {
+    position: relative;
+    width: 100%;
+}
+
+.portfolio h6 {
+    position: absolute;
+    background: #dc3545;
+    width: 100%;
+    top: 85%;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+
 .footer {
     background: #333;
     color: #fff;
-    padding: 2%;
+    padding: 1.5%;
     text-align: center;
 }
