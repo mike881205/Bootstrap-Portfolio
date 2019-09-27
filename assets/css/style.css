@@ -7,22 +7,53 @@ body{
     color: #fff;
     text-align: center;
     box-shadow: 0 1px 3px #999;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+.header-left {
+    padding-left: 16%;
+}
+
+.nav {
+    align-content: center;
+    margin: 0.5%;
+}
+
+#acolor {
+    color: #fff
 }
 
 h1 {
     font-size: 18px;
     background: #dc3545;
-    padding: 14%;
+    padding: 8%;
     margin:0%;
 }
 
 .container {
+    background: #fff;
+    width: 960px;
+    height: 540px;
+    margin-top: 4%;
+    margin-bottom: 4%;    
+}
+
+#contact-cont {
+    padding: 1%;
+}
+
+#name_email {
+    margin: 0;
+    width: 100%;
+}
+
+.port-cont {
     margin-top: 4%;
     margin-bottom: 4%;
     background: white;
-    height: 625px;
+    height: 975px;
     width: 950px;
+    padding: 6%;
+    padding-top: 0%;
 }
 
 h2 {
@@ -37,19 +68,27 @@ img {
     margin: 2%;
 }
 
+
+.portfolio {
+    padding:1%;
+}
+
 .portfolio img {
-    position: relative;
-    width: 100%;
+   width: 100%;
+   height: 15rem;
+   position: relative;
 }
 
 .portfolio h6 {
     position: absolute;
     background: #dc3545;
     width: 100%;
+    left: 0;
     top: 85%;
     color: #fff;
     text-align: center;
     padding: 2%;
+    margin: 0%;
 }
 
 .footer {
